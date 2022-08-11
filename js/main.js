@@ -27,7 +27,7 @@ function agregar_al_DOM(){
 
 
 }
-
+frutas.sort(function(){return 0.5  - Math.random()});
 agregar_al_DOM();
 
 
